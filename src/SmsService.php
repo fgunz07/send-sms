@@ -8,7 +8,7 @@ class SmsService {
 
 		$result = ['sms_service_provider' => config('sms.PROVIDER_URI'), 'app_id' => $appId, 'app_secret' => $appSecret, 'app_passphrase' => $appPassphrase];
 
-		return response()->json(['result' => $result]);
+		return response()->json($result);
 
 	}
 

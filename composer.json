@@ -1,5 +1,5 @@
 {
-    "name": "send/sms",
+    "name": "huie/sendgud",
     "description": "Laravel package for sending sms",
     "type": "library",
     "license": "MIT",

@@ -1,0 +1,23 @@
+{
+    "name": "send/sms",
+    "description": "Laravel package for sending sms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rey Mark A. Engada",
+            "email": "mhikeking0@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twilio/sdk": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Send\\Sms\\": "vendor/",
+            "Send\\Sms\\": "src/"
+        
+        }
+    }
+}
